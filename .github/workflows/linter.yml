@@ -1,0 +1,28 @@
+name: Linting
+
+on:
+  push:
+  pull_request:
+    types: [ opened, reopened ]
+  workflow_dispatch:
+
+jobs:
+
+  inspect-code:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+      security-events: write
+      actions: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload SARIF file
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: "result.sarif.json"
+          category: resharper-inspectcode
