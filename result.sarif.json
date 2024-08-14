@@ -1725,6 +1725,39 @@
           "ruleIndex": 8,
           "level": "warning",
           "message": {
+            "text": "Name '_another_constant' does not match rule 'Static fields (not private)'. Suggested name is 'AnotherConstant'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Misc/TestFile.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 30,
+                  "endLine": 9,
+                  "endColumn": 47,
+                  "charOffset": 203,
+                  "charLength": 17
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "521A38CBD6C63D98CAA4A09B727C74DCD768D5FE728C361631A1764BF8EBCB41"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "InconsistentNaming",
+          "ruleIndex": 8,
+          "level": "warning",
+          "message": {
             "text": "Name 'api' does not match rule 'Static readonly fields (not private)'. Suggested name is 'Api'."
           },
           "locations": [
@@ -1766,7 +1799,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 131,
@@ -1799,7 +1832,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 20,
@@ -1832,7 +1865,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/StaticEndpointBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 20
+                  "index": 21
                 },
                 "region": {
                   "startLine": 22,
@@ -1865,7 +1898,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 46,
@@ -1898,7 +1931,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 56,
@@ -1931,7 +1964,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 91,
@@ -1964,7 +1997,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 26,
@@ -1997,7 +2030,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 16,
@@ -2030,7 +2063,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 31,
@@ -2063,7 +2096,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 21,
@@ -2096,7 +2129,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 36,
@@ -2129,7 +2162,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 11,
@@ -2162,7 +2195,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 66,
@@ -2195,7 +2228,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 61,
@@ -2228,7 +2261,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 71,
@@ -2261,7 +2294,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 40,
@@ -2294,7 +2327,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 55,
@@ -2624,7 +2657,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 76,
@@ -2657,7 +2690,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 51,
@@ -2690,7 +2723,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 136,
@@ -2723,7 +2756,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/Caching/IDistributedCacheExtensions.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 21
+                  "index": 22
                 },
                 "region": {
                   "startLine": 7,
@@ -2756,7 +2789,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Division.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 22
+                  "index": 23
                 },
                 "region": {
                   "startLine": 11,
@@ -2789,7 +2822,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Division.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 22
+                  "index": 23
                 },
                 "region": {
                   "startLine": 13,
@@ -2822,7 +2855,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/IServiceCollectionExtension.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 23
+                  "index": 24
                 },
                 "region": {
                   "startLine": 15,
@@ -2855,7 +2888,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 81,
@@ -2888,7 +2921,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Division.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 22
+                  "index": 23
                 },
                 "region": {
                   "startLine": 15,
@@ -2921,7 +2954,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 166,
@@ -2954,7 +2987,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 65,
@@ -2987,7 +3020,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 126,
@@ -3020,7 +3053,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 60,
@@ -3053,7 +3086,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 25,
@@ -3086,7 +3119,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 30,
@@ -3119,7 +3152,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 141,
@@ -3144,6 +3177,39 @@
           "ruleIndex": 8,
           "level": "warning",
           "message": {
+            "text": "Name 'MY_CONSTANT' does not match rule 'Static fields (not private)'. Suggested name is 'MyConstant'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Misc/TestFile.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 30,
+                  "endLine": 8,
+                  "endColumn": 41,
+                  "charOffset": 144,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "83D504D3C198BBA9E1E447A688AE5C50F7381D12C08C4B41D1575BD906F2C5C8"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "InconsistentNaming",
+          "ruleIndex": 8,
+          "level": "warning",
+          "message": {
             "text": "Name 'NA1' does not match rule 'Enum members'. Suggested name is 'Na1'."
           },
           "locations": [
@@ -3152,7 +3218,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 15,
@@ -3185,7 +3251,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 151,
@@ -3218,7 +3284,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 35,
@@ -3416,7 +3482,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 41,
@@ -3449,7 +3515,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 101,
@@ -3482,7 +3548,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 96,
@@ -3515,7 +3581,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 34,
@@ -3548,7 +3614,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 39,
@@ -3581,7 +3647,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 49,
@@ -3614,7 +3680,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 54,
@@ -3647,7 +3713,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 9,
@@ -3680,7 +3746,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 14,
@@ -3713,7 +3779,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 19,
@@ -3746,7 +3812,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 25
+                  "index": 26
                 },
                 "region": {
                   "startLine": 101,
@@ -3779,7 +3845,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 25
+                  "index": 26
                 },
                 "region": {
                   "startLine": 101,
@@ -3812,7 +3878,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 25
+                  "index": 26
                 },
                 "region": {
                   "startLine": 82,
@@ -3845,7 +3911,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 25
+                  "index": 26
                 },
                 "region": {
                   "startLine": 82,
@@ -3878,7 +3944,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/StaticEndpointBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 20
+                  "index": 21
                 },
                 "region": {
                   "startLine": 23,
@@ -3911,7 +3977,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/EndpointTests/ThirdPartyEndpointTests.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 26
+                  "index": 27
                 },
                 "region": {
                   "startLine": 18,
@@ -3944,7 +4010,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 86,
@@ -3977,7 +4043,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 111,
@@ -4010,7 +4076,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 50,
@@ -4043,7 +4109,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 24,
@@ -4076,7 +4142,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 29,
@@ -4109,7 +4175,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 156,
@@ -4142,7 +4208,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/Participant.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 27
+                  "index": 28
                 },
                 "region": {
                   "startLine": 496,
@@ -4175,7 +4241,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/Participant.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 27
+                  "index": 28
                 },
                 "region": {
                   "startLine": 544,
@@ -4307,7 +4373,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 106,
@@ -4340,7 +4406,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Platform.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 19
+                  "index": 20
                 },
                 "region": {
                   "startLine": 45,
@@ -4373,7 +4439,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/StaticEndpointBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 20
+                  "index": 21
                 },
                 "region": {
                   "startLine": 21,
@@ -4406,7 +4472,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 161,
@@ -4439,7 +4505,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantFrame.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 28
+                  "index": 29
                 },
                 "region": {
                   "startLine": 85,
@@ -4472,7 +4538,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/ParticipantFrame.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 29
+                  "index": 30
                 },
                 "region": {
                   "startLine": 58,
@@ -4505,7 +4571,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 116,
@@ -4538,7 +4604,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 146,
@@ -4571,7 +4637,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Language.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 18
+                  "index": 19
                 },
                 "region": {
                   "startLine": 121,
@@ -4670,7 +4736,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/SummonerEndpoint/SummonerEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 30
+                  "index": 31
                 },
                 "region": {
                   "startLine": 28,
@@ -4703,7 +4769,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 25
+                  "index": 26
                 },
                 "region": {
                   "startLine": 67,
@@ -4769,7 +4835,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/StaticEndpointBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 20
+                  "index": 21
                 },
                 "region": {
                   "startLine": 49,
@@ -4802,7 +4868,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Item/StaticItemEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 31
+                  "index": 32
                 },
                 "region": {
                   "startLine": 34,
@@ -4835,7 +4901,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/LanguageStrings/StaticLanguageEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 32
+                  "index": 33
                 },
                 "region": {
                   "startLine": 33,
@@ -4868,7 +4934,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Map/StaticMapEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 33
+                  "index": 34
                 },
                 "region": {
                   "startLine": 30,
@@ -4901,7 +4967,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Mastery/StaticMasteryEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 34
+                  "index": 35
                 },
                 "region": {
                   "startLine": 28,
@@ -4934,7 +5000,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/ProfileIcons/StaticProfileIconEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 35
+                  "index": 36
                 },
                 "region": {
                   "startLine": 28,
@@ -4967,7 +5033,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Realm/StaticRealmEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 36
+                  "index": 37
                 },
                 "region": {
                   "startLine": 28,
@@ -5000,7 +5066,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/ReforgedRune/StaticReforgedRuneEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 37
+                  "index": 38
                 },
                 "region": {
                   "startLine": 29,
@@ -5033,7 +5099,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Rune/StaticRuneEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 38
+                  "index": 39
                 },
                 "region": {
                   "startLine": 28,
@@ -5066,7 +5132,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/StaticSummonerSpellEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 39
+                  "index": 40
                 },
                 "region": {
                   "startLine": 28,
@@ -5099,7 +5165,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Version/StaticVersionsEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 40
+                  "index": 41
                 },
                 "region": {
                   "startLine": 27,
@@ -5132,7 +5198,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 42,
@@ -5165,7 +5231,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 71,
@@ -5198,7 +5264,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/IChampionMasteryEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 42
+                  "index": 43
                 },
                 "region": {
                   "startLine": 43,
@@ -5231,7 +5297,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/Static/IStaticChampionEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 43
+                  "index": 44
                 },
                 "region": {
                   "startLine": 33,
@@ -5264,7 +5330,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StatusEndpoint/StatusEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 44
+                  "index": 45
                 },
                 "region": {
                   "startLine": 16,
@@ -5297,7 +5363,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 51,
@@ -5330,7 +5396,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 76,
@@ -5363,7 +5429,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/Static/IStaticChampionEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 43
+                  "index": 44
                 },
                 "region": {
                   "startLine": 37,
@@ -5396,7 +5462,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotSharpRateLimitException.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 45
+                  "index": 46
                 },
                 "region": {
                   "startLine": 30,
@@ -5429,7 +5495,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 25
+                  "index": 26
                 },
                 "region": {
                   "startLine": 164,
@@ -5462,7 +5528,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotSharpRateLimitException.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 45
+                  "index": 46
                 },
                 "region": {
                   "startLine": 30,
@@ -5594,7 +5660,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/StaticEndpointBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 20
+                  "index": 21
                 },
                 "region": {
                   "startLine": 19,
@@ -5627,7 +5693,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 46
+                  "index": 47
                 },
                 "region": {
                   "startLine": 18,
@@ -5660,7 +5726,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 46
+                  "index": 47
                 },
                 "region": {
                   "startLine": 17,
@@ -5693,7 +5759,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Util.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 47
+                  "index": 48
                 },
                 "region": {
                   "startLine": 11,
@@ -5726,7 +5792,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/StaticEndpointBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 20
+                  "index": 21
                 },
                 "region": {
                   "startLine": 25,
@@ -5858,7 +5924,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 46
+                  "index": 47
                 },
                 "region": {
                   "startLine": 16,
@@ -6056,7 +6122,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 25
+                  "index": 26
                 },
                 "region": {
                   "startLine": 120,
@@ -6089,7 +6155,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/TournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 48
+                  "index": 49
                 },
                 "region": {
                   "startLine": 95,
@@ -6221,7 +6287,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/ReforgedRune/Cache/ReforgedRuneListStaticWrapper.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 49
+                  "index": 50
                 },
                 "region": {
                   "startLine": 9,
@@ -6254,7 +6320,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/ReforgedRune/Cache/ReforgedRuneListStaticWrapper.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 49
+                  "index": 50
                 },
                 "region": {
                   "startLine": 10,
@@ -6287,7 +6353,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 46
+                  "index": 47
                 },
                 "region": {
                   "startLine": 10,
@@ -6320,7 +6386,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 46
+                  "index": 47
                 },
                 "region": {
                   "startLine": 12,
@@ -6353,7 +6419,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 46
+                  "index": 47
                 },
                 "region": {
                   "startLine": 14,
@@ -6386,7 +6452,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 46
+                  "index": 47
                 },
                 "region": {
                   "startLine": 13,
@@ -6419,7 +6485,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 46
+                  "index": 47
                 },
                 "region": {
                   "startLine": 9,
@@ -6551,7 +6617,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 46
+                  "index": 47
                 },
                 "region": {
                   "startLine": 8,
@@ -6947,7 +7013,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotSharpRateLimitException.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 45
+                  "index": 46
                 },
                 "region": {
                   "startLine": 23,
@@ -6980,7 +7046,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotSharpRateLimitException.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 45
+                  "index": 46
                 },
                 "region": {
                   "startLine": 17,
@@ -7013,7 +7079,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Caching/FileCache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 50
+                  "index": 51
                 },
                 "region": {
                   "startLine": 31,
@@ -7046,7 +7112,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Caching/FileCache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 50
+                  "index": 51
                 },
                 "region": {
                   "startLine": 27,
@@ -7145,7 +7211,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/Caching/DistributedCache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 51
+                  "index": 52
                 },
                 "region": {
                   "startLine": 46,
@@ -7178,7 +7244,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/Caching/HybridCache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 52
+                  "index": 53
                 },
                 "region": {
                   "startLine": 56,
@@ -7211,7 +7277,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/Caching/MemoryCache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 53
+                  "index": 54
                 },
                 "region": {
                   "startLine": 46,
@@ -7244,7 +7310,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/TournamentRiotApiTest.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 54
+                  "index": 55
                 },
                 "region": {
                   "startLine": 59,
@@ -7277,7 +7343,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/TournamentRiotApiTest.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 54
+                  "index": 55
                 },
                 "region": {
                   "startLine": 83,
@@ -7310,7 +7376,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/TournamentRiotApiTest.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 54
+                  "index": 55
                 },
                 "region": {
                   "startLine": 107,
@@ -7343,7 +7409,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Caching/FileCache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 50
+                  "index": 51
                 },
                 "region": {
                   "startLine": 88,
@@ -7376,7 +7442,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 25
+                  "index": 26
                 },
                 "region": {
                   "startLine": 32,
@@ -7442,7 +7508,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTest.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 55
+                  "index": 56
                 },
                 "region": {
                   "startLine": 20,
@@ -7574,7 +7640,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/MatchEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 56
+                  "index": 57
                 },
                 "region": {
                   "startLine": 57,
@@ -7607,7 +7673,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/MatchEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 56
+                  "index": 57
                 },
                 "region": {
                   "startLine": 88,
@@ -7640,7 +7706,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/CacheType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 57
+                  "index": 58
                 },
                 "region": {
                   "startLine": 1,
@@ -7673,7 +7739,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/CacheType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 57
+                  "index": 58
                 },
                 "region": {
                   "startLine": 2,
@@ -7706,7 +7772,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/CacheType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 57
+                  "index": 58
                 },
                 "region": {
                   "startLine": 3,
@@ -7772,7 +7838,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/Options/TournamentApiKeyOptions.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 58
+                  "index": 59
                 },
                 "region": {
                   "startLine": 1,
@@ -7805,7 +7871,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/Options/TournamentApiKeyOptions.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 58
+                  "index": 59
                 },
                 "region": {
                   "startLine": 2,
@@ -7838,7 +7904,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/Options/TournamentApiKeyOptions.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 58
+                  "index": 59
                 },
                 "region": {
                   "startLine": 3,
@@ -7871,7 +7937,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/EndpointTests/MatchEndpointTests.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 59
+                  "index": 60
                 },
                 "region": {
                   "startLine": 8,
@@ -7904,7 +7970,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/EndpointTests/MatchEndpointTests.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 59
+                  "index": 60
                 },
                 "region": {
                   "startLine": 11,
@@ -7937,7 +8003,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/EndpointTests/StatusEndpointTests.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 60
+                  "index": 61
                 },
                 "region": {
                   "startLine": 2,
@@ -7970,7 +8036,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/EndpointTests/StatusEndpointTests.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 60
+                  "index": 61
                 },
                 "region": {
                   "startLine": 3,
@@ -8003,7 +8069,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/EndpointTests/ThirdPartyEndpointTests.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 26
+                  "index": 27
                 },
                 "region": {
                   "startLine": 2,
@@ -8102,7 +8168,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/ChampionEndpoint/ChampionEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 61
+                  "index": 62
                 },
                 "region": {
                   "startLine": 1,
@@ -8135,7 +8201,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/ClashEndpoint/Models/ClashTeam.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 62
+                  "index": 63
                 },
                 "region": {
                   "startLine": 3,
@@ -8168,7 +8234,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/ClashEndpoint/Models/ClashTournament.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 63
+                  "index": 64
                 },
                 "region": {
                   "startLine": 3,
@@ -8201,7 +8267,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/IChampionEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 64
+                  "index": 65
                 },
                 "region": {
                   "startLine": 1,
@@ -8234,7 +8300,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/IMatchEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 65
+                  "index": 66
                 },
                 "region": {
                   "startLine": 1,
@@ -8267,7 +8333,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/ChampionStats.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 66
+                  "index": 67
                 },
                 "region": {
                   "startLine": 2,
@@ -8300,7 +8366,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/ChampionStats.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 66
+                  "index": 67
                 },
                 "region": {
                   "startLine": 3,
@@ -8333,7 +8399,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/ChampionStats.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 66
+                  "index": 67
                 },
                 "region": {
                   "startLine": 4,
@@ -8366,7 +8432,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/DamageStats.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 67
+                  "index": 68
                 },
                 "region": {
                   "startLine": 2,
@@ -8399,7 +8465,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/DamageStats.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 67
+                  "index": 68
                 },
                 "region": {
                   "startLine": 3,
@@ -8432,7 +8498,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/DamageStats.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 67
+                  "index": 68
                 },
                 "region": {
                   "startLine": 4,
@@ -8465,7 +8531,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/Enums/MatchFilterType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 68
+                  "index": 69
                 },
                 "region": {
                   "startLine": 1,
@@ -8498,7 +8564,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/Enums/MatchFilterType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 68
+                  "index": 69
                 },
                 "region": {
                   "startLine": 2,
@@ -8531,7 +8597,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/Enums/MatchFilterType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 68
+                  "index": 69
                 },
                 "region": {
                   "startLine": 3,
@@ -8564,7 +8630,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/Match.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 69
+                  "index": 70
                 },
                 "region": {
                   "startLine": 1,
@@ -8597,7 +8663,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/Match.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 69
+                  "index": 70
                 },
                 "region": {
                   "startLine": 2,
@@ -8630,7 +8696,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/Match.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 69
+                  "index": 70
                 },
                 "region": {
                   "startLine": 4,
@@ -8663,7 +8729,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/MatchInfo.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 70
+                  "index": 71
                 },
                 "region": {
                   "startLine": 5,
@@ -8696,7 +8762,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/MatchMetadata.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 71
+                  "index": 72
                 },
                 "region": {
                   "startLine": 2,
@@ -8729,7 +8795,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/MatchMetadata.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 71
+                  "index": 72
                 },
                 "region": {
                   "startLine": 4,
@@ -8762,7 +8828,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/MatchTimeline.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 72
+                  "index": 73
                 },
                 "region": {
                   "startLine": 1,
@@ -8795,7 +8861,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/MatchTimeline.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 72
+                  "index": 73
                 },
                 "region": {
                   "startLine": 2,
@@ -8828,7 +8894,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/MatchTimeline.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 72
+                  "index": 73
                 },
                 "region": {
                   "startLine": 4,
@@ -8861,7 +8927,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/MatchTimelineInfo.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 73
+                  "index": 74
                 },
                 "region": {
                   "startLine": 5,
@@ -8894,7 +8960,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/Participant.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 27
+                  "index": 28
                 },
                 "region": {
                   "startLine": 2,
@@ -8927,7 +8993,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/Participant.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 27
+                  "index": 28
                 },
                 "region": {
                   "startLine": 4,
@@ -8960,7 +9026,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerks.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 74
+                  "index": 75
                 },
                 "region": {
                   "startLine": 2,
@@ -8993,105 +9059,6 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerks.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 74
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 19,
-                  "charOffset": 74,
-                  "charLength": 18
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "contextRegionHash/v1": "0CD90279DDF23E442C830121A3D3A2DB80DFBD4E5765CB671A49E833720F2AC7"
-          },
-          "properties": {
-            "tags": ["C#",".NETStandard 1.3"]
-          }
-        },
-        {
-          "ruleId": "RedundantUsingDirective",
-          "ruleIndex": 25,
-          "level": "warning",
-          "message": {
-            "text": "Using directive is not required by the code and can be safely removed"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerkSelection.cs",
-                  "uriBaseId": "solutionDir",
-                  "index": 75
-                },
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1,
-                  "endLine": 2,
-                  "endColumn": 14,
-                  "charOffset": 24,
-                  "charLength": 13
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "contextRegionHash/v1": "DD8BD2C48ED2E73F38ECC34F861BFE56C8ECC420FDA2172062A13A7D3662A4A2"
-          },
-          "properties": {
-            "tags": ["C#",".NETStandard 1.3"]
-          }
-        },
-        {
-          "ruleId": "RedundantUsingDirective",
-          "ruleIndex": 25,
-          "level": "warning",
-          "message": {
-            "text": "Using directive is not required by the code and can be safely removed"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerkSelection.cs",
-                  "uriBaseId": "solutionDir",
-                  "index": 75
-                },
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 34,
-                  "charOffset": 39,
-                  "charLength": 33
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "contextRegionHash/v1": "772C86099562631793A4C027D1F7F29FC4B04B29F876286C94D9990EC4718B7C"
-          },
-          "properties": {
-            "tags": ["C#",".NETStandard 1.3"]
-          }
-        },
-        {
-          "ruleId": "RedundantUsingDirective",
-          "ruleIndex": 25,
-          "level": "warning",
-          "message": {
-            "text": "Using directive is not required by the code and can be safely removed"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerkSelection.cs",
-                  "uriBaseId": "solutionDir",
                   "index": 75
                 },
                 "region": {
@@ -9123,7 +9090,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerksStatPerks.cs",
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerkSelection.cs",
                   "uriBaseId": "solutionDir",
                   "index": 76
                 },
@@ -9156,7 +9123,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerksStatPerks.cs",
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerkSelection.cs",
                   "uriBaseId": "solutionDir",
                   "index": 76
                 },
@@ -9189,7 +9156,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerksStatPerks.cs",
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerkSelection.cs",
                   "uriBaseId": "solutionDir",
                   "index": 76
                 },
@@ -9222,7 +9189,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerksStyle.cs",
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerksStatPerks.cs",
                   "uriBaseId": "solutionDir",
                   "index": 77
                 },
@@ -9255,7 +9222,40 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerksStyle.cs",
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerksStatPerks.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 77
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 34,
+                  "charOffset": 39,
+                  "charLength": 33
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "772C86099562631793A4C027D1F7F29FC4B04B29F876286C94D9990EC4718B7C"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "RedundantUsingDirective",
+          "ruleIndex": 25,
+          "level": "warning",
+          "message": {
+            "text": "Using directive is not required by the code and can be safely removed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerksStatPerks.cs",
                   "uriBaseId": "solutionDir",
                   "index": 77
                 },
@@ -9288,7 +9288,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/TeamStatsObjectives.cs",
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerksStyle.cs",
                   "uriBaseId": "solutionDir",
                   "index": 78
                 },
@@ -9321,40 +9321,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/TeamStatsObjectives.cs",
-                  "uriBaseId": "solutionDir",
-                  "index": 78
-                },
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 34,
-                  "charOffset": 39,
-                  "charLength": 33
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "contextRegionHash/v1": "772C86099562631793A4C027D1F7F29FC4B04B29F876286C94D9990EC4718B7C"
-          },
-          "properties": {
-            "tags": ["C#",".NETStandard 1.3"]
-          }
-        },
-        {
-          "ruleId": "RedundantUsingDirective",
-          "ruleIndex": 25,
-          "level": "warning",
-          "message": {
-            "text": "Using directive is not required by the code and can be safely removed"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/TeamStatsObjectives.cs",
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/ParticipantPerksStyle.cs",
                   "uriBaseId": "solutionDir",
                   "index": 78
                 },
@@ -9387,7 +9354,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/VictimDamage.cs",
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/TeamStatsObjectives.cs",
                   "uriBaseId": "solutionDir",
                   "index": 79
                 },
@@ -9420,7 +9387,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/VictimDamage.cs",
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/TeamStatsObjectives.cs",
                   "uriBaseId": "solutionDir",
                   "index": 79
                 },
@@ -9453,9 +9420,108 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "RiotSharp/Endpoints/MatchEndpoint/VictimDamage.cs",
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/TeamStatsObjectives.cs",
                   "uriBaseId": "solutionDir",
                   "index": 79
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 19,
+                  "charOffset": 74,
+                  "charLength": 18
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0CD90279DDF23E442C830121A3D3A2DB80DFBD4E5765CB671A49E833720F2AC7"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "RedundantUsingDirective",
+          "ruleIndex": 25,
+          "level": "warning",
+          "message": {
+            "text": "Using directive is not required by the code and can be safely removed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/VictimDamage.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 80
+                },
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 1,
+                  "endLine": 2,
+                  "endColumn": 14,
+                  "charOffset": 24,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "DD8BD2C48ED2E73F38ECC34F861BFE56C8ECC420FDA2172062A13A7D3662A4A2"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "RedundantUsingDirective",
+          "ruleIndex": 25,
+          "level": "warning",
+          "message": {
+            "text": "Using directive is not required by the code and can be safely removed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/VictimDamage.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 80
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 34,
+                  "charOffset": 39,
+                  "charLength": 33
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "772C86099562631793A4C027D1F7F29FC4B04B29F876286C94D9990EC4718B7C"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "RedundantUsingDirective",
+          "ruleIndex": 25,
+          "level": "warning",
+          "message": {
+            "text": "Using directive is not required by the code and can be safely removed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Endpoints/MatchEndpoint/VictimDamage.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 80
                 },
                 "region": {
                   "startLine": 4,
@@ -9488,7 +9554,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/SpectatorEndpoint/FeaturedGame.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 80
+                  "index": 81
                 },
                 "region": {
                   "startLine": 6,
@@ -9521,7 +9587,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/SpectatorEndpoint/GameCustomizationObject.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 81
+                  "index": 82
                 },
                 "region": {
                   "startLine": 2,
@@ -9554,7 +9620,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/SpectatorEndpoint/GameCustomizationObject.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 81
+                  "index": 82
                 },
                 "region": {
                   "startLine": 3,
@@ -9587,7 +9653,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/SpectatorEndpoint/GameCustomizationObject.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 81
+                  "index": 82
                 },
                 "region": {
                   "startLine": 4,
@@ -9620,7 +9686,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/SpectatorEndpoint/Participant.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 82
+                  "index": 83
                 },
                 "region": {
                   "startLine": 1,
@@ -9653,7 +9719,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/SpectatorEndpoint/Perks.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 83
+                  "index": 84
                 },
                 "region": {
                   "startLine": 2,
@@ -9686,7 +9752,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/SpectatorEndpoint/Perks.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 83
+                  "index": 84
                 },
                 "region": {
                   "startLine": 4,
@@ -9719,7 +9785,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StatusEndpoint/StatusEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 44
+                  "index": 45
                 },
                 "region": {
                   "startLine": 2,
@@ -9752,7 +9818,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StatusEndpoint/StatusEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 44
+                  "index": 45
                 },
                 "region": {
                   "startLine": 4,
@@ -9785,7 +9851,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StatusEndpoint/StatusEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 44
+                  "index": 45
                 },
                 "region": {
                   "startLine": 7,
@@ -9818,7 +9884,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StatusEndpoint/StatusEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 44
+                  "index": 45
                 },
                 "region": {
                   "startLine": 8,
@@ -9884,7 +9950,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotSharpRateLimitException.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 45
+                  "index": 46
                 },
                 "region": {
                   "startLine": 2,
@@ -9917,7 +9983,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotSharpRateLimitException.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 45
+                  "index": 46
                 },
                 "region": {
                   "startLine": 4,
@@ -9950,7 +10016,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Http/Requesters.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 84
+                  "index": 85
                 },
                 "region": {
                   "startLine": 6,
@@ -9971,8 +10037,41 @@
           }
         },
         {
+          "ruleId": "UnassignedReadonlyField.Compiler",
+          "ruleIndex": 28,
+          "level": "warning",
+          "message": {
+            "text": "Readonly field '_propertyOne' is never assigned"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Misc/TestFile.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 33,
+                  "endLine": 11,
+                  "endColumn": 45,
+                  "charOffset": 300,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "316E86EC932AA65F826BDF5E81915038C092EA044F3E0AEC9CE4170A3F76EE4D"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
           "ruleId": "UnusedAutoPropertyAccessor.Global",
-          "ruleIndex": 27,
+          "ruleIndex": 29,
           "level": "warning",
           "message": {
             "text": "Auto-property accessor 'ApiKey.set' is never used"
@@ -10005,7 +10104,7 @@
         },
         {
           "ruleId": "UnusedAutoPropertyAccessor.Global",
-          "ruleIndex": 27,
+          "ruleIndex": 29,
           "level": "warning",
           "message": {
             "text": "Auto-property accessor 'Region.get' is never used"
@@ -10016,7 +10115,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/SummonerEndpoint/SummonerBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 85
+                  "index": 86
                 },
                 "region": {
                   "startLine": 14,
@@ -10038,7 +10137,7 @@
         },
         {
           "ruleId": "UnusedAutoPropertyAccessor.Global",
-          "ruleIndex": 27,
+          "ruleIndex": 29,
           "level": "warning",
           "message": {
             "text": "Auto-property accessor 'UseStub.set' is never used"
@@ -10049,7 +10148,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/Options/TournamentApiKeyOptions.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 58
+                  "index": 59
                 },
                 "region": {
                   "startLine": 11,
@@ -10071,7 +10170,7 @@
         },
         {
           "ruleId": "UnusedAutoPropertyAccessor.Global",
-          "ruleIndex": 27,
+          "ruleIndex": 29,
           "level": "warning",
           "message": {
             "text": "Auto-property accessor 'Version.get' is never used"
@@ -10082,7 +10181,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Champion/Cache/ChampionStaticWrapper.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 86
+                  "index": 87
                 },
                 "region": {
                   "startLine": 11,
@@ -10103,8 +10202,41 @@
           }
         },
         {
+          "ruleId": "UnusedField.Compiler",
+          "ruleIndex": 30,
+          "level": "warning",
+          "message": {
+            "text": "Field '_propertyTwo' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Misc/TestFile.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 33,
+                  "endLine": 12,
+                  "endColumn": 45,
+                  "charOffset": 347,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "212314691AFE8E08BC109BD6B9E1BE9345B938D7EBCD25351AAB4FDCCF59A892"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'Aram' is never used"
@@ -10115,7 +10247,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 21,
@@ -10137,7 +10269,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'Ascension' is never used"
@@ -10148,7 +10280,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 41,
@@ -10170,7 +10302,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'Assassinate' is never used"
@@ -10181,7 +10313,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 61,
@@ -10203,7 +10335,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'Classic' is never used"
@@ -10214,7 +10346,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 11,
@@ -10236,7 +10368,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'Darkstar' is never used"
@@ -10247,7 +10379,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 66,
@@ -10269,7 +10401,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'Darkstar' is never used"
@@ -10280,7 +10412,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 59,
@@ -10302,7 +10434,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'Dominion' is never used"
@@ -10313,7 +10445,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 16,
@@ -10335,7 +10467,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'FirstBlood' is never used"
@@ -10346,7 +10478,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 36,
@@ -10368,7 +10500,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'Intro' is never used"
@@ -10379,7 +10511,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 46,
@@ -10401,7 +10533,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'KingPoro' is never used"
@@ -10412,7 +10544,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 51,
@@ -10434,7 +10566,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'OneForAll' is never used"
@@ -10445,7 +10577,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 31,
@@ -10467,7 +10599,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'Siege' is never used"
@@ -10478,7 +10610,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 56,
@@ -10500,7 +10632,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'TeamBuilderRankedSolo' is never used"
@@ -10511,7 +10643,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Queue.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 24
+                  "index": 25
                 },
                 "region": {
                   "startLine": 44,
@@ -10533,7 +10665,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constant 'Tutorial' is never used"
@@ -10544,7 +10676,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 26,
@@ -10566,7 +10698,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticChampionEndpoint' is never used"
@@ -10599,7 +10731,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticEndpointBase' is never used"
@@ -10610,7 +10742,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/StaticEndpointBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 20
+                  "index": 21
                 },
                 "region": {
                   "startLine": 48,
@@ -10632,7 +10764,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticEndpointProvider' is never used"
@@ -10665,7 +10797,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticItemEndpoint' is never used"
@@ -10676,7 +10808,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Item/StaticItemEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 31
+                  "index": 32
                 },
                 "region": {
                   "startLine": 33,
@@ -10698,7 +10830,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticLanguageEndpoint' is never used"
@@ -10709,7 +10841,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/LanguageStrings/StaticLanguageEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 32
+                  "index": 33
                 },
                 "region": {
                   "startLine": 32,
@@ -10731,7 +10863,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticMapEndpoint' is never used"
@@ -10742,7 +10874,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Map/StaticMapEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 33
+                  "index": 34
                 },
                 "region": {
                   "startLine": 29,
@@ -10764,7 +10896,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticMasteryEndpoint' is never used"
@@ -10775,7 +10907,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Mastery/StaticMasteryEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 34
+                  "index": 35
                 },
                 "region": {
                   "startLine": 27,
@@ -10797,7 +10929,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticProfileIconEndpoint' is never used"
@@ -10808,7 +10940,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/ProfileIcons/StaticProfileIconEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 35
+                  "index": 36
                 },
                 "region": {
                   "startLine": 27,
@@ -10830,7 +10962,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticRealmEndpoint' is never used"
@@ -10841,7 +10973,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Realm/StaticRealmEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 36
+                  "index": 37
                 },
                 "region": {
                   "startLine": 27,
@@ -10863,7 +10995,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticReforgedRuneEndpoint' is never used"
@@ -10874,7 +11006,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/ReforgedRune/StaticReforgedRuneEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 37
+                  "index": 38
                 },
                 "region": {
                   "startLine": 28,
@@ -10896,7 +11028,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticRuneEndpoint' is never used"
@@ -10907,7 +11039,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Rune/StaticRuneEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 38
+                  "index": 39
                 },
                 "region": {
                   "startLine": 27,
@@ -10929,7 +11061,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticSummonerSpellEndpoint' is never used"
@@ -10940,7 +11072,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/StaticSummonerSpellEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 39
+                  "index": 40
                 },
                 "region": {
                   "startLine": 27,
@@ -10962,7 +11094,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Constructor 'StaticVersionEndpoint' is never used"
@@ -10973,7 +11105,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/Version/StaticVersionsEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 40
+                  "index": 41
                 },
                 "region": {
                   "startLine": 26,
@@ -10995,7 +11127,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Barrier' is never used"
@@ -11006,7 +11138,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 11,
@@ -11028,7 +11160,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Challenger' is never used"
@@ -11039,7 +11171,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Tier.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 89
+                  "index": 90
                 },
                 "region": {
                   "startLine": 20,
@@ -11061,7 +11193,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'ChampSelectStartedEvent' is never used"
@@ -11072,7 +11204,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/Enums/TournamentEventType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 90
+                  "index": 91
                 },
                 "region": {
                   "startLine": 35,
@@ -11094,7 +11226,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Clairvoyance' is never used"
@@ -11105,7 +11237,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 21,
@@ -11127,7 +11259,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Clarity' is never used"
@@ -11138,7 +11270,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 51,
@@ -11160,7 +11292,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Cleanse' is never used"
@@ -11171,7 +11303,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 16,
@@ -11193,7 +11325,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'CosmicRuins' is never used"
@@ -11204,7 +11336,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/MapType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 91
+                  "index": 92
                 },
                 "region": {
                   "startLine": 55,
@@ -11226,7 +11358,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Diamond' is never used"
@@ -11237,7 +11369,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Tier.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 89
+                  "index": 90
                 },
                 "region": {
                   "startLine": 25,
@@ -11259,7 +11391,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Distributed' is never used"
@@ -11270,7 +11402,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/CacheType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 57
+                  "index": 58
                 },
                 "region": {
                   "startLine": 28,
@@ -11292,7 +11424,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Exhaust' is never used"
@@ -11303,7 +11435,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 31,
@@ -11325,7 +11457,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Flash' is never used"
@@ -11336,7 +11468,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 36,
@@ -11358,7 +11490,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'GameAllocatedToLsmEvent' is never used"
@@ -11369,7 +11501,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/Enums/TournamentEventType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 90
+                  "index": 91
                 },
                 "region": {
                   "startLine": 45,
@@ -11391,7 +11523,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'GameAllocationStartedEvent' is never used"
@@ -11402,7 +11534,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/Enums/TournamentEventType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 90
+                  "index": 91
                 },
                 "region": {
                   "startLine": 40,
@@ -11424,7 +11556,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'GameDissolvedEvent' is never used"
@@ -11435,7 +11567,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/Enums/TournamentEventType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 90
+                  "index": 91
                 },
                 "region": {
                   "startLine": 51,
@@ -11457,7 +11589,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Garrison' is never used"
@@ -11468,7 +11600,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 56,
@@ -11490,7 +11622,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Ghost' is never used"
@@ -11501,7 +11633,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 41,
@@ -11523,7 +11655,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Gold' is never used"
@@ -11534,7 +11666,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Tier.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 89
+                  "index": 90
                 },
                 "region": {
                   "startLine": 35,
@@ -11556,7 +11688,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Heal' is never used"
@@ -11567,7 +11699,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 46,
@@ -11589,7 +11721,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'HowlingAbyss' is never used"
@@ -11600,7 +11732,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/MapType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 91
+                  "index": 92
                 },
                 "region": {
                   "startLine": 50,
@@ -11622,7 +11754,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Ignite' is never used"
@@ -11633,7 +11765,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 26,
@@ -11655,7 +11787,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Iron' is never used"
@@ -11666,7 +11798,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Tier.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 89
+                  "index": 90
                 },
                 "region": {
                   "startLine": 50,
@@ -11688,7 +11820,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Master' is never used"
@@ -11699,7 +11831,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Tier.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 89
+                  "index": 90
                 },
                 "region": {
                   "startLine": 15,
@@ -11721,7 +11853,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'OwnerChangedEvent' is never used"
@@ -11732,7 +11864,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/Enums/TournamentEventType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 90
+                  "index": 91
                 },
                 "region": {
                   "startLine": 49,
@@ -11754,7 +11886,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Platinum' is never used"
@@ -11765,7 +11897,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Tier.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 89
+                  "index": 90
                 },
                 "region": {
                   "startLine": 30,
@@ -11787,7 +11919,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'PlayerBannedFromGameEvent' is never used"
@@ -11798,7 +11930,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/Enums/TournamentEventType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 90
+                  "index": 91
                 },
                 "region": {
                   "startLine": 47,
@@ -11820,7 +11952,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'PlayerJoinedGameEvent' is never used"
@@ -11831,7 +11963,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/Enums/TournamentEventType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 90
+                  "index": 91
                 },
                 "region": {
                   "startLine": 20,
@@ -11853,7 +11985,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'PlayerQuitGameEvent' is never used"
@@ -11864,7 +11996,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/Enums/TournamentEventType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 90
+                  "index": 91
                 },
                 "region": {
                   "startLine": 30,
@@ -11886,7 +12018,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'PlayerSwitchedTeamEvent' is never used"
@@ -11897,7 +12029,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/Enums/TournamentEventType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 90
+                  "index": 91
                 },
                 "region": {
                   "startLine": 25,
@@ -11919,7 +12051,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'PracticeGameCreatedEvent' is never used"
@@ -11930,7 +12062,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/TournamentEndpoint/Enums/TournamentEventType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 90
+                  "index": 91
                 },
                 "region": {
                   "startLine": 15,
@@ -11952,7 +12084,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Revive' is never used"
@@ -11963,7 +12095,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 61,
@@ -11985,7 +12117,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Silver' is never used"
@@ -11996,7 +12128,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Tier.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 89
+                  "index": 90
                 },
                 "region": {
                   "startLine": 40,
@@ -12018,7 +12150,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Smite' is never used"
@@ -12029,7 +12161,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 66,
@@ -12051,7 +12183,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'SummonersRiftAutumnVariant' is never used"
@@ -12062,7 +12194,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/MapType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 91
+                  "index": 92
                 },
                 "region": {
                   "startLine": 20,
@@ -12084,7 +12216,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'SummonersRiftSummerVariant' is never used"
@@ -12095,7 +12227,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/MapType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 91
+                  "index": 92
                 },
                 "region": {
                   "startLine": 15,
@@ -12117,7 +12249,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Teleport' is never used"
@@ -12128,7 +12260,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 71,
@@ -12150,7 +12282,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'TheCrystalScar' is never used"
@@ -12161,7 +12293,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/MapType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 91
+                  "index": 92
                 },
                 "region": {
                   "startLine": 35,
@@ -12183,7 +12315,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'TheProvingGrounds' is never used"
@@ -12194,7 +12326,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/MapType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 91
+                  "index": 92
                 },
                 "region": {
                   "startLine": 25,
@@ -12216,7 +12348,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'TwistedTreelineCurrent' is never used"
@@ -12227,7 +12359,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/MapType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 91
+                  "index": 92
                 },
                 "region": {
                   "startLine": 40,
@@ -12249,7 +12381,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'TwistedTreelineOriginal' is never used"
@@ -12260,7 +12392,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/MapType.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 91
+                  "index": 92
                 },
                 "region": {
                   "startLine": 30,
@@ -12282,7 +12414,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Unranked' is never used"
@@ -12293,7 +12425,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/Enums/Tier.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 89
+                  "index": 90
                 },
                 "region": {
                   "startLine": 55,
@@ -12315,7 +12447,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Enum member 'Val' is never used"
@@ -12326,7 +12458,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/AccountEndpoint/Enums/Game.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 92
+                  "index": 93
                 },
                 "region": {
                   "startLine": 20,
@@ -12348,7 +12480,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Field 'InvalidSummonerId' is never used"
@@ -12381,7 +12513,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Field 'Season' is never used"
@@ -12414,7 +12546,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Field 'StaticTarballLinkVersionUrl' is never used"
@@ -12425,7 +12557,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 46
+                  "index": 47
                 },
                 "region": {
                   "startLine": 19,
@@ -12447,7 +12579,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Field 'SummonerNames' is never used"
@@ -12480,7 +12612,40 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
+          "level": "note",
+          "message": {
+            "text": "Field 'ThirdConstant' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Misc/TestFile.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 30,
+                  "endLine": 10,
+                  "endColumn": 43,
+                  "charOffset": 252,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "78C89712B2F5A870B5C19CBE1B3B966665CC04D2B0247E7AAD569719AEE34F10"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Field 'TournamentCode' is never used"
@@ -12513,7 +12678,73 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
+          "level": "note",
+          "message": {
+            "text": "Method 'Abc' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Misc/TestFile.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 21,
+                  "endLine": 14,
+                  "endColumn": 24,
+                  "charOffset": 384,
+                  "charLength": 3
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B59A28AD8ACE974468A09FCC2AA47B41AB3C2787D4EAB844A8B331C329343190"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 31,
+          "level": "note",
+          "message": {
+            "text": "Method 'Abcc' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Misc/TestFile.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 21,
+                  "endLine": 20,
+                  "endColumn": 25,
+                  "charOffset": 532,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "83C3441B8EF8365766D6201D5996278D18605D78B97C6125818CA5573F9EF9EF"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'AddRiotSharp' is never used"
@@ -12524,7 +12755,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/IServiceCollectionExtension.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 23
+                  "index": 24
                 },
                 "region": {
                   "startLine": 23,
@@ -12546,7 +12777,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'BuildIdsString' is never used"
@@ -12557,7 +12788,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Util.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 47
+                  "index": 48
                 },
                 "region": {
                   "startLine": 24,
@@ -12579,7 +12810,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'BuildIdsString' is never used"
@@ -12590,7 +12821,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Util.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 47
+                  "index": 48
                 },
                 "region": {
                   "startLine": 29,
@@ -12612,7 +12843,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'BuildNamesString' is never used"
@@ -12623,7 +12854,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Util.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 47
+                  "index": 48
                 },
                 "region": {
                   "startLine": 34,
@@ -12645,7 +12876,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'BuildQueuesString' is never used"
@@ -12656,7 +12887,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Util.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 47
+                  "index": 48
                 },
                 "region": {
                   "startLine": 39,
@@ -12678,7 +12909,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'BuildSeasonString' is never used"
@@ -12689,7 +12920,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Util.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 47
+                  "index": 48
                 },
                 "region": {
                   "startLine": 44,
@@ -12711,7 +12942,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'ConvertToRegion' is never used"
@@ -12722,7 +12953,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Converters/PlatformConverter.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 93
+                  "index": 94
                 },
                 "region": {
                   "startLine": 67,
@@ -12744,7 +12975,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetChampionMasteriesByPuuidAsync' is never used"
@@ -12755,7 +12986,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/IChampionMasteryEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 42
+                  "index": 43
                 },
                 "region": {
                   "startLine": 44,
@@ -12777,7 +13008,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetChampionMasteryByPuuidAsync' is never used"
@@ -12788,7 +13019,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/IChampionMasteryEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 42
+                  "index": 43
                 },
                 "region": {
                   "startLine": 28,
@@ -12810,7 +13041,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetClashPlayersBySummonerIdAsync' is never used"
@@ -12821,7 +13052,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/IClashEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 94
+                  "index": 95
                 },
                 "region": {
                   "startLine": 21,
@@ -12843,7 +13074,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetClashTeamByTeamIdAsync' is never used"
@@ -12854,7 +13085,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/IClashEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 94
+                  "index": 95
                 },
                 "region": {
                   "startLine": 31,
@@ -12876,7 +13107,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetClashTournamentByIdAsync' is never used"
@@ -12887,7 +13118,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/IClashEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 94
+                  "index": 95
                 },
                 "region": {
                   "startLine": 54,
@@ -12909,7 +13140,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetClashTournamentByTeamAsync' is never used"
@@ -12920,7 +13151,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/IClashEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 94
+                  "index": 95
                 },
                 "region": {
                   "startLine": 46,
@@ -12942,7 +13173,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetClashTournamentListAsync' is never used"
@@ -12953,7 +13184,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/Interfaces/IClashEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 94
+                  "index": 95
                 },
                 "region": {
                   "startLine": 38,
@@ -12975,7 +13206,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetInstance' is never used"
@@ -12986,7 +13217,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/RiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 25
+                  "index": 26
                 },
                 "region": {
                   "startLine": 101,
@@ -13008,7 +13239,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetInstance' is never used"
@@ -13019,7 +13250,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/TournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 48
+                  "index": 49
                 },
                 "region": {
                   "startLine": 109,
@@ -13041,7 +13272,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetTournamentLobbyEventsAsync' is never used"
@@ -13052,7 +13283,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 65,
@@ -13074,7 +13305,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetTournamentMatchAsync' is never used"
@@ -13085,7 +13316,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 87,
@@ -13107,7 +13338,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'GetTournamentMatchIdAsync' is never used"
@@ -13118,7 +13349,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 96,
@@ -13140,7 +13371,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Method 'SetRetryAfter' is never used"
@@ -13151,7 +13382,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Http/RateLimiter.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 95
+                  "index": 96
                 },
                 "region": {
                   "startLine": 43,
@@ -13173,7 +13404,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Defense' is never used"
@@ -13206,7 +13437,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatArmorMod' is never used"
@@ -13239,7 +13470,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatArmorModPerLevel' is never used"
@@ -13272,7 +13503,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatArmorPenetrationMod' is never used"
@@ -13305,7 +13536,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatArmorPenetrationModPerLevel' is never used"
@@ -13338,7 +13569,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatAttackSpeedMod' is never used"
@@ -13371,7 +13602,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatBlockMod' is never used"
@@ -13404,7 +13635,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatCritChanceMod' is never used"
@@ -13437,7 +13668,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatCritChanceModPerLevel' is never used"
@@ -13470,7 +13701,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatCritDamageMod' is never used"
@@ -13503,7 +13734,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatCritDamageModPerLevel' is never used"
@@ -13536,7 +13767,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatDodgeMod' is never used"
@@ -13569,7 +13800,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatDodgeModPerLevel' is never used"
@@ -13602,7 +13833,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatEnergyModPerLevel' is never used"
@@ -13635,7 +13866,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatEnergyPoolMod' is never used"
@@ -13668,7 +13899,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatEnergyRegenMod' is never used"
@@ -13701,7 +13932,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatEnergyRegenModPerLevel' is never used"
@@ -13734,7 +13965,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatGoldPer10Mod' is never used"
@@ -13767,7 +13998,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatMagicDamageMod' is never used"
@@ -13800,7 +14031,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatMagicDamageModPerLevel' is never used"
@@ -13833,7 +14064,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatMagicPenetrationMod' is never used"
@@ -13866,7 +14097,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatMagicPenetrationModPerLevel' is never used"
@@ -13899,7 +14130,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatMovementSpeedMod' is never used"
@@ -13932,7 +14163,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatMovementSpeedModPerLevel' is never used"
@@ -13965,7 +14196,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatPhysicalDamageMod' is never used"
@@ -13998,7 +14229,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatPhysicalDamageModPerLevel' is never used"
@@ -14031,7 +14262,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatSpellBlockMod' is never used"
@@ -14064,7 +14295,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatSpellBlockModPerLevel' is never used"
@@ -14097,7 +14328,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatTimeDeadMod' is never used"
@@ -14130,7 +14361,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'FlatTimeDeadModPerLevel' is never used"
@@ -14163,7 +14394,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Icon' is never used"
@@ -14196,7 +14427,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Icon' is never used"
@@ -14207,7 +14438,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/ReforgedRune/ReforgedRuneStatic.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 96
+                  "index": 97
                 },
                 "region": {
                   "startLine": 22,
@@ -14229,7 +14460,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Id' is never used"
@@ -14262,7 +14493,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Id' is never used"
@@ -14273,7 +14504,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/ReforgedRune/ReforgedRuneStatic.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 96
+                  "index": 97
                 },
                 "region": {
                   "startLine": 10,
@@ -14295,7 +14526,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Key' is never used"
@@ -14328,7 +14559,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Key' is never used"
@@ -14339,7 +14570,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/ReforgedRune/ReforgedRuneStatic.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 96
+                  "index": 97
                 },
                 "region": {
                   "startLine": 14,
@@ -14361,7 +14592,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Name' is never used"
@@ -14394,7 +14625,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Name' is never used"
@@ -14405,7 +14636,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/ReforgedRune/ReforgedRuneStatic.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 96
+                  "index": 97
                 },
                 "region": {
                   "startLine": 12,
@@ -14427,7 +14658,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Offense' is never used"
@@ -14460,7 +14691,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentArmorMod' is never used"
@@ -14493,7 +14724,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentArmorPenetrationMod' is never used"
@@ -14526,7 +14757,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentArmorPenetrationModPerLevel' is never used"
@@ -14559,7 +14790,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentAttackSpeedMod' is never used"
@@ -14592,7 +14823,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentAttackSpeedModPerLevel' is never used"
@@ -14625,7 +14856,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentBlockMod' is never used"
@@ -14658,7 +14889,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentCooldownMod' is never used"
@@ -14691,7 +14922,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentCooldownModPerLevel' is never used"
@@ -14724,7 +14955,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentCritChanceMod' is never used"
@@ -14757,7 +14988,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentCritDamageMod' is never used"
@@ -14790,7 +15021,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentDodgeMod' is never used"
@@ -14823,7 +15054,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentLifeStealMod' is never used"
@@ -14856,7 +15087,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentMagicDamageMod' is never used"
@@ -14889,7 +15120,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentMagicPenetrationMod' is never used"
@@ -14922,7 +15153,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentMagicPenetrationModPerLevel' is never used"
@@ -14955,7 +15186,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentMovementSpeedMod' is never used"
@@ -14988,7 +15219,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentMovementSpeedModPerLevel' is never used"
@@ -15021,7 +15252,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentPhysicalDamageMod' is never used"
@@ -15054,7 +15285,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentSpellBlockMod' is never used"
@@ -15087,7 +15318,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentSpellVampMod' is never used"
@@ -15120,7 +15351,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentTimeDeadMod' is never used"
@@ -15153,7 +15384,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'PercentTimeDeadModPerLevel' is never used"
@@ -15186,7 +15417,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Runes' is never used"
@@ -15219,7 +15450,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Slots' is never used"
@@ -15252,7 +15483,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'TestContext' is never used"
@@ -15263,7 +15494,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/CacheTest.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 97
+                  "index": 98
                 },
                 "region": {
                   "startLine": 13,
@@ -15285,7 +15516,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'TestContext' is never used"
@@ -15296,7 +15527,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/MemoryCacheTest.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 98
+                  "index": 99
                 },
                 "region": {
                   "startLine": 11,
@@ -15318,7 +15549,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'ThrowOnRateLimitedReached' is never used"
@@ -15351,7 +15582,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 28,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Property 'Utility' is never used"
@@ -15384,7 +15615,7 @@
         },
         {
           "ruleId": "UnusedMember.Local",
-          "ruleIndex": 29,
+          "ruleIndex": 32,
           "level": "warning",
           "message": {
             "text": "Constant 'ChampionByIdCacheKey' is never used"
@@ -15417,7 +15648,7 @@
         },
         {
           "ruleId": "UnusedMember.Local",
-          "ruleIndex": 29,
+          "ruleIndex": 32,
           "level": "warning",
           "message": {
             "text": "Constant 'IdUrl' is never used"
@@ -15428,7 +15659,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/ChampionEndpoint/ChampionEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 61
+                  "index": 62
                 },
                 "region": {
                   "startLine": 18,
@@ -15450,7 +15681,7 @@
         },
         {
           "ruleId": "UnusedMember.Local",
-          "ruleIndex": 29,
+          "ruleIndex": 32,
           "level": "warning",
           "message": {
             "text": "Field 'BeginTime' is never used"
@@ -15483,7 +15714,7 @@
         },
         {
           "ruleId": "UnusedMember.Local",
-          "ruleIndex": 29,
+          "ruleIndex": 32,
           "level": "warning",
           "message": {
             "text": "Field 'unsupportedCultureInfo' is never used"
@@ -15516,7 +15747,7 @@
         },
         {
           "ruleId": "UnusedMember.Local",
-          "ruleIndex": 29,
+          "ruleIndex": 32,
           "level": "warning",
           "message": {
             "text": "Property 'EndTime' is never used"
@@ -15549,7 +15780,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of method 'Add' are used"
@@ -15560,7 +15791,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Caching/ICache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 99
+                  "index": 100
                 },
                 "region": {
                   "startLine": 30,
@@ -15582,7 +15813,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of method 'Clear' are used"
@@ -15593,7 +15824,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Caching/ICache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 99
+                  "index": 100
                 },
                 "region": {
                   "startLine": 51,
@@ -15615,7 +15846,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of method 'CreateProviderAsync' are used"
@@ -15626,7 +15857,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 24,
@@ -15648,7 +15879,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of method 'CreateTournamentAsync' are used"
@@ -15659,7 +15890,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 32,
@@ -15681,7 +15912,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of method 'CreateTournamentCodesAsync' are used"
@@ -15692,7 +15923,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 49,
@@ -15714,7 +15945,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of method 'GetTournamentCodeDetailsAsync' are used"
@@ -15725,7 +15956,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 58,
@@ -15747,7 +15978,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of method 'Remove' are used"
@@ -15758,7 +15989,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Caching/ICache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 99
+                  "index": 100
                 },
                 "region": {
                   "startLine": 46,
@@ -15780,7 +16011,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of method 'UpdateTournamentCodeAsync' are used"
@@ -15791,7 +16022,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/ITournamentRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 41
+                  "index": 42
                 },
                 "region": {
                   "startLine": 76,
@@ -15813,7 +16044,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of property 'Account' are used"
@@ -15824,7 +16055,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/IRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 100
+                  "index": 101
                 },
                 "region": {
                   "startLine": 14,
@@ -15846,7 +16077,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of property 'Champion' are used"
@@ -15857,7 +16088,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/IRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 100
+                  "index": 101
                 },
                 "region": {
                   "startLine": 24,
@@ -15879,7 +16110,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of property 'ChampionMastery' are used"
@@ -15890,7 +16121,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/IRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 100
+                  "index": 101
                 },
                 "region": {
                   "startLine": 44,
@@ -15912,7 +16143,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of property 'Clash' are used"
@@ -15923,7 +16154,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/IRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 100
+                  "index": 101
                 },
                 "region": {
                   "startLine": 59,
@@ -15945,7 +16176,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of property 'DataDragon' are used"
@@ -15956,7 +16187,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/IRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 100
+                  "index": 101
                 },
                 "region": {
                   "startLine": 54,
@@ -15978,7 +16209,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of property 'League' are used"
@@ -15989,7 +16220,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/IRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 100
+                  "index": 101
                 },
                 "region": {
                   "startLine": 29,
@@ -16011,7 +16242,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of property 'Match' are used"
@@ -16022,7 +16253,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/IRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 100
+                  "index": 101
                 },
                 "region": {
                   "startLine": 34,
@@ -16044,7 +16275,7 @@
         },
         {
           "ruleId": "UnusedMemberInSuper.Global",
-          "ruleIndex": 30,
+          "ruleIndex": 33,
           "level": "note",
           "message": {
             "text": "Only implementations of property 'Summoner' are used"
@@ -16055,7 +16286,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Interfaces/IRiotApi.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 100
+                  "index": 101
                 },
                 "region": {
                   "startLine": 19,
@@ -16077,7 +16308,7 @@
         },
         {
           "ruleId": "UnusedType.Global",
-          "ruleIndex": 31,
+          "ruleIndex": 34,
           "level": "note",
           "message": {
             "text": "Class 'DistributedCache' is never used (except inside its declaration)"
@@ -16088,7 +16319,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.AspNetCore/Caching/DistributedCache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 51
+                  "index": 52
                 },
                 "region": {
                   "startLine": 11,
@@ -16110,7 +16341,7 @@
         },
         {
           "ruleId": "UnusedType.Global",
-          "ruleIndex": 31,
+          "ruleIndex": 34,
           "level": "note",
           "message": {
             "text": "Class 'FileCache' is never used"
@@ -16121,7 +16352,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Caching/FileCache.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 50
+                  "index": 51
                 },
                 "region": {
                   "startLine": 13,
@@ -16143,7 +16374,7 @@
         },
         {
           "ruleId": "UnusedType.Global",
-          "ruleIndex": 31,
+          "ruleIndex": 34,
           "level": "note",
           "message": {
             "text": "Class 'GameMode' is never used"
@@ -16154,7 +16385,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/GameMode.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 87
+                  "index": 88
                 },
                 "region": {
                   "startLine": 6,
@@ -16176,7 +16407,7 @@
         },
         {
           "ruleId": "UnusedType.Global",
-          "ruleIndex": 31,
+          "ruleIndex": 34,
           "level": "note",
           "message": {
             "text": "Class 'PlatformToRegionConverter' is never used"
@@ -16187,7 +16418,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Misc/Converters/PlatformConverter.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 93
+                  "index": 94
                 },
                 "region": {
                   "startLine": 65,
@@ -16209,7 +16440,7 @@
         },
         {
           "ruleId": "UnusedType.Global",
-          "ruleIndex": 31,
+          "ruleIndex": 34,
           "level": "note",
           "message": {
             "text": "Class 'RateLimiterTestBase' is never used"
@@ -16220,7 +16451,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/RateLimiterTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 101
+                  "index": 102
                 },
                 "region": {
                   "startLine": 3,
@@ -16242,7 +16473,7 @@
         },
         {
           "ruleId": "UnusedType.Global",
-          "ruleIndex": 31,
+          "ruleIndex": 34,
           "level": "note",
           "message": {
             "text": "Class 'RiotApiExceptionTestBase' is never used"
@@ -16253,7 +16484,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/RiotApiExceptionTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 102
+                  "index": 103
                 },
                 "region": {
                   "startLine": 3,
@@ -16275,7 +16506,7 @@
         },
         {
           "ruleId": "UnusedType.Global",
-          "ruleIndex": 31,
+          "ruleIndex": 34,
           "level": "note",
           "message": {
             "text": "Class 'SummonerTestBase' is never used"
@@ -16286,7 +16517,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/SummonerTestBase.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 103
+                  "index": 104
                 },
                 "region": {
                   "startLine": 3,
@@ -16308,7 +16539,40 @@
         },
         {
           "ruleId": "UnusedType.Global",
-          "ruleIndex": 31,
+          "ruleIndex": 34,
+          "level": "note",
+          "message": {
+            "text": "Class 'TestFile' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Misc/TestFile.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 26,
+                  "charOffset": 98,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "D392599312784065133AFF4EC400F0084E9B633777C5A4BFE39E2EB01DFCF24D"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "UnusedType.Global",
+          "ruleIndex": 34,
           "level": "note",
           "message": {
             "text": "Enum 'SummonerSpell' is never used"
@@ -16319,7 +16583,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/StaticDataEndpoint/SummonerSpell/SummonerSpell.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 88
+                  "index": 89
                 },
                 "region": {
                   "startLine": 6,
@@ -16341,7 +16605,7 @@
         },
         {
           "ruleId": "UnusedVariable",
-          "ruleIndex": 32,
+          "ruleIndex": 35,
           "level": "warning",
           "message": {
             "text": "Local variable 'cache' is never used"
@@ -16352,7 +16616,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/DataDragonApiTest.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 55
+                  "index": 56
                 },
                 "region": {
                   "startLine": 19,
@@ -16374,7 +16638,7 @@
         },
         {
           "ruleId": "UnusedVariable",
-          "ruleIndex": 32,
+          "ruleIndex": 35,
           "level": "warning",
           "message": {
             "text": "Local variable 'language' is never used"
@@ -16407,7 +16671,7 @@
         },
         {
           "ruleId": "UnusedVariable",
-          "ruleIndex": 32,
+          "ruleIndex": 35,
           "level": "warning",
           "message": {
             "text": "Local variable 'language' is never used"
@@ -16440,7 +16704,40 @@
         },
         {
           "ruleId": "UnusedVariable",
-          "ruleIndex": 32,
+          "ruleIndex": 35,
+          "level": "warning",
+          "message": {
+            "text": "Local variable 'myList' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RiotSharp/Misc/TestFile.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 26,
+                  "endLine": 22,
+                  "endColumn": 32,
+                  "charOffset": 576,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E51A4426A5A91C4A1C1FDD047CDF5D2B1EE08663CD5C82921525ECA545194A79"
+          },
+          "properties": {
+            "tags": ["C#",".NETStandard 1.3"]
+          }
+        },
+        {
+          "ruleId": "UnusedVariable",
+          "ruleIndex": 35,
           "level": "warning",
           "message": {
             "text": "Local variable 'tournamentCodes' is never used"
@@ -16451,7 +16748,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/TournamentRiotApiTest.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 54
+                  "index": 55
                 },
                 "region": {
                   "startLine": 50,
@@ -16473,7 +16770,7 @@
         },
         {
           "ruleId": "UnusedVariable",
-          "ruleIndex": 32,
+          "ruleIndex": 35,
           "level": "warning",
           "message": {
             "text": "Local variable 'tournamentCodes' is never used"
@@ -16484,7 +16781,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/TournamentRiotApiTest.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 54
+                  "index": 55
                 },
                 "region": {
                   "startLine": 74,
@@ -16506,7 +16803,7 @@
         },
         {
           "ruleId": "UnusedVariable",
-          "ruleIndex": 32,
+          "ruleIndex": 35,
           "level": "warning",
           "message": {
             "text": "Local variable 'tournamentCodes' is never used"
@@ -16517,7 +16814,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp.Test/TournamentRiotApiTest.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 54
+                  "index": 55
                 },
                 "region": {
                   "startLine": 98,
@@ -16539,7 +16836,7 @@
         },
         {
           "ruleId": "UseCollectionCountProperty",
-          "ruleIndex": 33,
+          "ruleIndex": 36,
           "level": "note",
           "message": {
             "text": "Replace 'Enumerable.Count()' invocation with collection count property access"
@@ -16572,7 +16869,7 @@
         },
         {
           "ruleId": "UseCollectionCountProperty",
-          "ruleIndex": 33,
+          "ruleIndex": 36,
           "level": "note",
           "message": {
             "text": "Replace 'Enumerable.Count()' invocation with collection count property access"
@@ -16605,7 +16902,7 @@
         },
         {
           "ruleId": "UseObjectOrCollectionInitializer",
-          "ruleIndex": 34,
+          "ruleIndex": 37,
           "level": "note",
           "message": {
             "text": "Use object initializer"
@@ -16638,7 +16935,7 @@
         },
         {
           "ruleId": "UseObjectOrCollectionInitializer",
-          "ruleIndex": 34,
+          "ruleIndex": 37,
           "level": "note",
           "message": {
             "text": "Use object initializer"
@@ -16671,7 +16968,7 @@
         },
         {
           "ruleId": "UseStringInterpolation",
-          "ruleIndex": 35,
+          "ruleIndex": 38,
           "level": "note",
           "message": {
             "text": "Use string interpolation expression"
@@ -16682,7 +16979,7 @@
                 "artifactLocation": {
                   "uri": "RiotSharp/Endpoints/LeagueEndpoint/LeagueEndpoint.cs",
                   "uriBaseId": "solutionDir",
-                  "index": 104
+                  "index": 105
                 },
                 "region": {
                   "startLine": 65,
@@ -17669,6 +17966,78 @@
               ]
             },
             {
+              "id": "UnassignedField.Global",
+              "fullDescription": {
+                "text": "Field is never assigned"
+              },
+              "shortDescription": {
+                "text": "Unassigned field: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnassignedReadonlyField.Compiler",
+              "fullDescription": {
+                "text": "Readonly field is never assigned (compiler warning)"
+              },
+              "shortDescription": {
+                "text": "Unassigned readonly field"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CompilerWarnings",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.CompilerWarnings",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
               "id": "UnusedAutoPropertyAccessor.Global",
               "fullDescription": {
                 "text": "Accessor in auto-property is never used"
@@ -17694,6 +18063,42 @@
                 {
                   "target": {
                     "id": "VBASIC.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedField.Compiler",
+              "fullDescription": {
+                "text": "Field is never used (compiler warning)"
+              },
+              "shortDescription": {
+                "text": "Field is never used"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CompilerWarnings",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.CompilerWarnings",
                     "toolComponent": {
                       "name": "InspectCode"
                     }
@@ -18679,6 +19084,17 @@
             "md5": "1BB54D4A9EAE8BF48A201DFDE94F59F4",
             "sha-1": "0358F4079F1F06C0DD851A0DD295358E4D408825",
             "sha-256": "EB17B33E806724C1E0767D1F3644B7B9E153A58ED78DEE394339F06D5179E384"
+          }
+        },
+        {
+          "location": {
+            "uri": "RiotSharp/Misc/TestFile.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "B4CBC969E115EE1104B10F31519F9314",
+            "sha-1": "607EABA776E9312492C6202A75135C6CCD3CAD93",
+            "sha-256": "C8E93743492BE99194F45CA0EF4C49743801A0C65EA1B6A85ABD627E0A581E01"
           }
         },
         {
